@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NuGet.ProjectModel" Version="4.3.0-beta1-2418" />
+    <None Include="dotnet.new.project.lock.json" CopyToOutputDirectory="Always" />
+  </ItemGroup>
+</Project>
